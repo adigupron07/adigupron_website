@@ -1,0 +1,77 @@
+* {
+  font-family: "Popping", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+body {
+  background-color: grey;
+  font-family: "Popping", sans-serif;
+}
+header,
+section#gambar,
+section#Album {
+  background: white;
+  width: 900px;
+  margin: auto;
+  padding: 20px;
+  border-bottom: 4px solid grey;
+}
+section#gambar h1,
+section#Album h1 {
+  text-align: center;
+  background-color: grey;
+  color: white;
+}
+.header {
+  position: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: o;
+  left: 0;
+  right: 0;
+}
+.logo {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000000;
+  font-style: italic;
+}
+.logo span {
+  color: #b6895b;
+}
+
+.navbar a {
+  font-weight: 700;
+  color: #000000;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+  transition: 0.3s;
+}
+.navbar a:hover {
+  color: #b6895b;
+}
+.deskripsi p {
+  padding: 1.5rem;
+}
+.foto {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 10px;
+}
+.foto img {
+  max-width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.span {
+  color: #b6895b;
+}
